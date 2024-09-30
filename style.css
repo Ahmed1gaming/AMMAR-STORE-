@@ -1,0 +1,89 @@
+/* تنسيقات عامة */
+body {
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.555)60%,white);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-image: linear-gradient(to right ,black,purple);
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #ff9900;
+    border: none;
+    cursor: pointer;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: #ff9900;
+    margin: 0;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.products-container, .offers-container {
+    display: flex;
+    gap: 20px;
+}
+
+.product, .offer {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.product img, .offer img {
+    width: 100px;
+    height: 100px;
+}
+
+.product button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
